@@ -7,4 +7,10 @@
    <FileRef
       location = "container:../Downloads/qmmi64_3-4-4">
    </FileRef>
+   <FileRef
+      location = "group:Media.xcassets">
+   </FileRef>
+   <FileRef
+      location = "group:">
+   </FileRef>
 </Workspace>

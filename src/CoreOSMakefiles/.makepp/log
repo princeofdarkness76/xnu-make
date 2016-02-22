@@ -1,0 +1,70 @@
+3/usr/local/bin/makepp
+VERSION2.05.18.2darwin-thread-multi-2level
+LOAD140471785417672makefile140471787700064/users/pod/xnu-make/src/coreosmakefiles140471787700064
+TRY140471785417672
+USEdefault rule
+DEPEND140471785417672
+UP_TO_DATE140471785417672
+LOAD_REC140471785417672
+LOAD_INCL140471789567392makepp_builtin_rules.mk140471785402272/usr/local/cellar/makepp/2.0/share/makepp140471785417672
+LOAD_END140471785417672
+TRY140471789567920install140471787700064
+USE/users/pod/xnu-make/src/coreosmakefiles/makefile:11
+SCAN_INFO140471789567920
+LEX_RULE140471789567920info not cached
+PARSE/usr/local/cellar/makepp/2.0/share/makepp/recursive_makepp installsrc SRCROOT=/Makefiles/CoreOS140471787700064/users/pod/xnu-make/src/coreosmakefiles/makefile:11
+TRY140471789589736recursive_makepp140471785402272
+USEdefault rule
+DEPEND140471789589736
+UP_TO_DATE140471789589736
+PARSErm -f /Makefiles/CoreOS/Makefile140471787700064/users/pod/xnu-make/src/coreosmakefiles/makefile:11
+TRY140471789610032rm140471789609768/bin
+USEdefault rule
+DEPEND140471789610032
+UP_TO_DATE140471789610032
+PARSEset -x 140471787700064/users/pod/xnu-make/src/coreosmakefiles/makefile:11
+PARSEfor i in Commands Variables140471787700064/users/pod/xnu-make/src/coreosmakefiles/makefile:11
+PARSEunifdef -UBSDMAKESTYLE -t /Makefiles/CoreOS/Standard/$i.in 140471787700064/users/pod/xnu-make/src/coreosmakefiles/makefile:11
+TRY140471789589280unifdef140471789598576/usr/local/bin
+USEdefault rule
+DEPEND140471789589280
+UP_TO_DATE140471789589280
+PARSE[ $? -eq 1 ] 140471787700064/users/pod/xnu-make/src/coreosmakefiles/makefile:11
+PARSEexit 1140471787700064/users/pod/xnu-make/src/coreosmakefiles/makefile:11
+PARSErm -f -f /Makefiles/CoreOS/Standard/$i.in 140471787700064/users/pod/xnu-make/src/coreosmakefiles/makefile:11
+PARSEexit 1140471787700064/users/pod/xnu-make/src/coreosmakefiles/makefile:11
+PARSEdone140471787700064/users/pod/xnu-make/src/coreosmakefiles/makefile:11
+DEPEND140471789567920140471789589736140471789610032140471789589280
+BUILD_RECURSIVE140471789567920
+LOAD_AGAIN140471785417672SRCROOT old: , new: /Makefiles/CoreOS140471787700064
+LOAD_REC140471785417672
+LOAD_INCL140471789567392140471785417672
+LOAD_END140471785417672
+TRY140471789568568installsrc140471787700064
+USE/users/pod/xnu-make/src/coreosmakefiles/makefile:24
+SCAN_INFO140471789568568
+LEX_RULE140471789568568info not cached
+PARSEinstall -d "/Makefiles/CoreOS"140471787700064/users/pod/xnu-make/src/coreosmakefiles/makefile:24
+TRY140471785430536install140471789609288/usr/bin
+USEdefault rule
+DEPEND140471785430536
+UP_TO_DATE140471785430536
+PARSErsync -a --exclude=.svn --exclude=.git ./ "/Makefiles/CoreOS"140471787700064/users/pod/xnu-make/src/coreosmakefiles/makefile:24
+TRY140471786119232rsync140471789609288
+USEdefault rule
+DEPEND140471786119232
+UP_TO_DATE140471786119232
+DEPEND140471789568568140471785430536140471786119232
+BUILD_NONE140471789568568
+SUCCESS/users/pod/xnu-make/src/coreosmakefiles/makefile:24140471789568568
+*** warning: I attempted to build /users/pod/xnu-make/src/coreosmakefiles/installsrc,
+  but after successfully executing the commands, the target does not exist.
+  Perhaps it is a phony target?	 If so, the rule defining it should be modified
+  like this:
+    $(phony installsrc): dependencies
+	actions
+
+  or you could also declare it as phony like this:
+    .PHONY: installsrc
+SUCCESS/users/pod/xnu-make/src/coreosmakefiles/makefile:11140471789567920
+N_FILES110

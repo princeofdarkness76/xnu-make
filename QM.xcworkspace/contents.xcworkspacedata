@@ -8,6 +8,13 @@
       location = "group:../Downloads/libqmclient.a">
    </FileRef>
    <FileRef
-      location = "container:../Downloads/qmmi64_3-4-4">
+      location = "container:../Downloads/qmmi64_3-4-4"
+      assignedFileDataType = "public.make-source">
+   </FileRef>
+   <FileRef
+      location = "group:Media.xcassets">
+   </FileRef>
+   <FileRef
+      location = "group:">
    </FileRef>
 </Workspace>

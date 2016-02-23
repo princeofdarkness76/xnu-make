@@ -1,0 +1,51 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E4A8DAE14D6A5F8A654400A59050398888CB9EFF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2EFA5E9DAC483028FD3EB02D1F686ABCCEA8A505" : 0,
+    "DF9C43F5F2DDA7602C90554366F43EAB65BB2B5C" : 0,
+    "E4A8DAE14D6A5F8A654400A59050398888CB9EFF" : 0,
+    "352EA43211B332E530809E51669433C6913B7BBE" : 0,
+    "26589C7A9BB96142DF02A9E0D3EC4E6CC868F5F6" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9BD9037F-2C7D-4706-BCA8-113CE4CA968D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2EFA5E9DAC483028FD3EB02D1F686ABCCEA8A505" : "xnu-make\/externals\/AvailabilityVersions\/",
+    "DF9C43F5F2DDA7602C90554366F43EAB65BB2B5C" : "xnu-make\/externals\/libsystem\/",
+    "E4A8DAE14D6A5F8A654400A59050398888CB9EFF" : "xnu-make\/",
+    "352EA43211B332E530809E51669433C6913B7BBE" : "xnu-make\/externals\/xnu\/",
+    "26589C7A9BB96142DF02A9E0D3EC4E6CC868F5F6" : "xnu-make\/externals\/dtrace\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "XNU-QM",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "XNU-QM.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ddeville\/dtrace.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "26589C7A9BB96142DF02A9E0D3EC4E6CC868F5F6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ddeville\/AvailabilityVersions.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2EFA5E9DAC483028FD3EB02D1F686ABCCEA8A505"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ddeville\/xnu.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "352EA43211B332E530809E51669433C6913B7BBE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ddeville\/libsystem.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DF9C43F5F2DDA7602C90554366F43EAB65BB2B5C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/princeofdarkness76\/xnu-make.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E4A8DAE14D6A5F8A654400A59050398888CB9EFF"
+    }
+  ]
+}
